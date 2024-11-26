@@ -7,6 +7,6 @@ printf("enter two numbers");
   scanf("%d %d",&a, &b);
 sum= (a + b);
 printf("sum of two numbers is %d",sum);
-  printf("sinchana.c"
+  printf("sinchana.c")
   return 0;
 }
