@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+  int num1, num2, temp;
+
+  printf("Enter the first number: ");
+  scanf("%d", &num1);
+
+  printf("Enter the second number: ");
+  scanf("%d", &num2);
+
+  printf("Before swapping:\n");
+  printf("Number 1: %d\n", num1);
+  printf("Number 2: %d\n", num2);
+
+  // Swap the numbers
+  temp = num1;  // Store the value of num1 in temp
+  num1 = num2;  // Assign the value of num2 to num1
+  num2 = temp;  // Assign the stored value (original num1) to num2
+
+  printf("After swapping:\n");
+  printf("Number 1: %d\n", num1);
+  printf("Number 2: %d\n", num2);
+
+  return 0;
+}
