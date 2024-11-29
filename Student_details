@@ -1,0 +1,24 @@
+include <stdio.h>
+struct Student{
+char name[50];
+char collegename[50];
+char gender[50];
+char department[50];
+int age;
+};
+int main(){
+struct Student s1;
+printf("Enter name:\n");
+scanf("%s",&s1.name);
+printf("Enter college name:\n");
+scanf("%s",&s1.collegename);
+printf("Enter gender\n");
+scanf("%s",&s1.gender);
+printf("Enter department\n");
+scanf("%s",&s1.department);
+printf("Enter age\n");
+scanf("%d",&s1.age);
+printf("student details:\n");
+printf("Name:%s\n,collegename:%s\n,gender:%s\n, department:%s\n,age:%d\n",s1.name , s1.collegename,s1.gender,s1.department,s1.age);
+return 0;
+}
