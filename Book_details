@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct book{
+char name[50];
+int book_id;
+char author [50];
+float price;
+};
+int main(){
+struct book b1;
+printf("enter the book name:\n");
+scanf("%s",b1.name);
+printf("enter the book id:");
+scanf("%d",&b1.book_id);
+printf("enter the author name:\n");
+scanf("%s",b1.author);
+printf("enter the price:\n ");
+scanf("%f",&b1.price);
+printf("\nbookdetails\n");
+printf("name:%s\n,book_id:%d\n,author:%s\n,price:%f\n",b1.name,b1.book_id,b1.author,b1.price);
+  return 0;
+}
